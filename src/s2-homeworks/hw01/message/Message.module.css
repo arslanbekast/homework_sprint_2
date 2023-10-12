@@ -1,31 +1,66 @@
 .message {
-
+    margin-bottom: 46px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
 }
 
 .imageAndText {
-
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-bottom: 5px;
+    gap: 15px;
 }
 
 .imageAndText img {
-
+    width: 48px;
+    height: 48px;
 }
 
 .text {
-
+    position: relative;
+    background-color: #06C;
+    padding: 8px 14px;
+    border-radius: 8px 8px 0 8px;
 }
 
 .text:after {
-
+    content: '';
+    display: block;
+    position: absolute;
+    border-right: 12px solid transparent;
+    border-bottom: 8px solid #06C;
+    right: -12px;
+    bottom: 0;
 }
 
 .name {
-
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
 }
 
 .messageText {
-
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .time {
-
+    width: 48px;
+    text-align: center;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
