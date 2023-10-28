@@ -2,34 +2,75 @@
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .error {
+    color: #C00;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    margin-right: 12px;
+    padding: 8px 12px;
 }
 
 .input:focus {
+    outline: none;
 }
 
 .errorInput {
+    border: 1px solid #C00;
 }
 
 .button {
+    color: #fff;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    background: #06C;
+    height: 36px;
+    padding: 5px 24px;
 }
 
-.button:focus {
+.button:hover {
+    box-shadow: 0 0 5px #0066cc;
 }
 
 .button:active {
+    box-shadow: none;
+
 }
 
 .button:disabled {
+    opacity: 0.5;
 }
 
 .text {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
 }
 
 .greeting {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
 }
