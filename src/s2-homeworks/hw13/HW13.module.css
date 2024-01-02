@@ -1,7 +1,14 @@
 .buttonsContainer {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 46px;
 }
 
 .responseContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
 }
 
 .imageContainer {
@@ -11,12 +18,32 @@
 }
 
 .textContainer{
+    max-width: 510px;
 }
 
 .code {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 18px;
 }
 
 .text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 .info {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
